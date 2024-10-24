@@ -49,8 +49,8 @@ button:hover {
 }
 
 
-.iss {
-    background-color: aqua;    
+#iss {
+    display: none;
 }
 
 #iss-img {
