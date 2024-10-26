@@ -49,11 +49,21 @@ button:hover {
 }
 
 
-#iss {
-    display: none;
-}
-
 #iss-img {
+    /* display: none; */
     width: 50px;
     margin-top: 2rem;
+    position: relative;
+    /* animation: move-iss 4s linear 2s 1 both; */
+    animation: move-iss 4s linear 2s 1 both;
+    /* transition: transform 4s 2s; */
+}
+@keyframes move-iss {
+    0% { transform: translate(0px, 600px) rotate(0deg) scale(0.2, 0.2); }
+    100% { transform: translate(940px, 10px) rotate(-40deg) scale(1.5, 1.5); }
+}
+
+
+#iss-location {
+    display: none;
 }
