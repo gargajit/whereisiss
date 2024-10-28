@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     align-content: center;
     text-align: center;
-    background-image: url("./assets/space.jpg");
+    background-image: url("./assets/space.webp");
     background-repeat: no-repeat;
     background-position: center;  
     background-size: cover;
@@ -54,16 +54,24 @@ button:hover {
     width: 50px;
     margin-top: 2rem;
     position: relative;
-    /* animation: move-iss 4s linear 2s 1 both; */
-    animation: move-iss 4s linear 2s 1 both;
-    /* transition: transform 4s 2s; */
+    animation: move-iss 4s ease-in-out 1s 1 both;
 }
 @keyframes move-iss {
     0% { transform: translate(0px, 600px) rotate(0deg) scale(0.2, 0.2); }
-    100% { transform: translate(940px, 10px) rotate(-40deg) scale(1.5, 1.5); }
+    100% { transform: translate(938px, 10px) rotate(-40deg) scale(1.5, 1.5); }
 }
 
 
 #iss-location {
-    display: none;
+    /* display: none; */
+    align-self: center;
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    height: 200px;
+    width: 400px;
+    margin-top: 2rem;
+}
+
+.coordinates {
+    color: white;
+    font-size: large;
 }
