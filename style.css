@@ -57,8 +57,8 @@ button:hover {
     animation: move-iss 4s ease-in-out 1s 1 both;
 }
 @keyframes move-iss {
-    0% { transform: translate(0px, 600px) rotate(0deg) scale(0.2, 0.2); }
-    100% { transform: translate(938px, 10px) rotate(-40deg) scale(1.5, 1.5); }
+    0% { transform: translate(0px, 200px) rotate(0deg) scale(0.2, 0.2); }
+    100% { transform: translate(50vw, 10px) rotate(-40deg) scale(1.5, 1.5); }
 }
 
 
@@ -73,5 +73,5 @@ button:hover {
 
 .coordinates {
     color: white;
-    font-size: large;
+    font-size: large;   
 }
