@@ -58,7 +58,7 @@ button:hover {
 }
 @keyframes move-iss {
     0% { transform: translate(0px, 200px) rotate(0deg) scale(0.2, 0.2); }
-    100% { transform: translate(50vw, 10px) rotate(-40deg) scale(1.5, 1.5); }
+    100% { transform: translate(48.5vw, 10px) rotate(-40deg) scale(1.5, 1.5); }
 }
 
 
