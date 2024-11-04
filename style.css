@@ -54,7 +54,7 @@ button:hover {
     width: 50px;
     margin-top: 2rem;
     position: relative;
-    animation: move-iss 4s ease-in-out 1s 1 both;
+    animation: move-iss 3s linear 1s 1 both;
 }
 @keyframes move-iss {
     0% { transform: translate(0px, 200px) rotate(0deg) scale(0.2, 0.2); }
@@ -63,12 +63,14 @@ button:hover {
 
 
 #iss-location {
-    /* display: none; */
+    display: none;
     align-self: center;
     border: 2px solid rgb(255, 255, 255, 0.5);
     height: 200px;
     width: 400px;
     margin-top: 2rem;
+    background-color: hsla(65, 20%, 50%, 0.5);
+    border-radius: 10px;
 }
 
 .coordinates {
