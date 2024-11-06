@@ -66,7 +66,7 @@ button:hover {
     display: none;
     align-self: center;
     border: 2px solid rgb(255, 255, 255, 0.5);
-    height: 200px;
+    height: 150px;
     width: 400px;
     margin-top: 2rem;
     background-color: hsla(65, 20%, 50%, 0.5);
