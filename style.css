@@ -63,21 +63,16 @@ button:hover {
 
 
 #iss-location {
-    /* display: none; */
+    display: none;
     align-self: center;
     border: 2px solid rgb(255, 255, 255, 0.5);
     height: 140px;
     width: 400px;
     margin-top: 2rem;
-    /* color: white; */
     background-color: hsla(65, 20%, 50%, 0.5);
     border-radius: 10px;
 }
 
-#iss-location > p {
-    text-align: start;
-    margin-left: 10px; 
-}
 
 .coordinates {
     color: white;

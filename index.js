@@ -1,14 +1,13 @@
 $("#locate-iss-btn").click(function() {
     $(".titan-one-regular").text("Currently ISS is at:");
-    $("#iss-location").slideToggle("slow");
-    // $("#iss-location").html("<p><b>Lattitude: </b></p><br /><p><b>Longitude: </b></p>");
+    $("#iss-location").slideDown("slow");
+    $("#iss-location").html('<p id="latitude"><b>Lattitude: </b></p><br /><p id="longitude"><b>Longitude: </b></p>');
 
-    // ("https://api.wheretheiss.at/v1/satellites/25544")
-    // .then(response => response.json())
-    // .then(data => {
-    //     $("iss-location").html("<p><b>Lattitude: " + data.latitude.toFixed(2) + "</b></p><p><b>Longitude: " + ${data.longitude.toFixed(2)} + "</b></p>");
-    // })
-    // .catch(error => {
-    //     console.error("Error Fetching ISS data: ", error);
-    // });
+    $.getJSON("https://api.wheretheiss.at/v1/satellites/25544", function(data){
+        $('#latitude').append(data.latitude.toFixed(2));
+        $('#longitude').append(data.longitude.toFixed(2));
+    })       
+    .fail(function(error) {
+        console.error("Error Fetching ISS data: ", error);
+    });
 });
