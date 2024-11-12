@@ -21,5 +21,6 @@ The project uses HTML, CSS and frontend JS using JQuery syntax.
 
 ### UI
 ![image](https://github.com/user-attachments/assets/61a703f9-7ed8-4142-9d5e-df9b7ad7c60f)
-![image](https://github.com/user-attachments/assets/5eb55d16-40a4-4586-a63a-f5e14a0b4088)
+![image](https://github.com/user-attachments/assets/33b1ddc1-db73-4e4d-a2e9-278fae1075e9)
+
 
