@@ -1,4 +1,4 @@
-# Tracking International Space Station (ISS)
+# Tracking International Space Station (ISS) 🛰️
 
 Hi! I have created this project to track the current coordinates (lattitude and longitude) of the International Space Station (ISS). This is done using the API request. 
 I have used the **[WTIA REST API](https://wheretheiss.at/w/developer)** and fetched the live coordinates of the ISS and displayed it on the webpage.
