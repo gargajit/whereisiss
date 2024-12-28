@@ -24,3 +24,19 @@ The project uses HTML, CSS and frontend JS using JQuery syntax.
 ![image](https://github.com/user-attachments/assets/33b1ddc1-db73-4e4d-a2e9-278fae1075e9)
 
 
+## Version 2: Reverse Geocoding
+Earlier we were displaying only the *latitude* and *longitude* of the ISS. In Version 2, I have added more information. 
+
+Now, I have Integrated Reverse Geocoding that converts latitude and longitude into human-readable locations like countries, continents, or oceans.
+
+### Nominatim(OpenStreetMap)
+I have used the **OpenStreetMap's** free geocoding API **Nominatim**.
+- URL: `https://nominatim.openstreetmap.org/reverse?lat=<LATITUDE>&lon=<LONGITUDE>&format=json`
+
+The limitation with this api is it throws error if the latitude and longitude value passed is of ocean as it has not been geocoded.
+So I have handled the error by displaying the output as `ISS is over Ocean`. 
+And in the rest of the case accessing the country from the address we display the name of the country.
+
+### Results:
+
+
