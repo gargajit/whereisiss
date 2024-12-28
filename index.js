@@ -24,7 +24,7 @@ $("#locate-iss-btn").click(function() {
                     } else {
                         const address = locationData.address || {};
                         const country = address.country || 'Unknown';
-                        const displayLocation = country ? `Country: ${country}` : `Ocean`;
+                        const displayLocation = country ? country : `Ocean`;
 
                         $('#location').append(`ISS is over ${displayLocation}`);
                     }

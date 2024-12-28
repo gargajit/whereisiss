@@ -77,4 +77,6 @@ p {
 
 #location {
     margin-top: 2.5rem;
+    color: yellow;
+    font-weight: bold;
 }
