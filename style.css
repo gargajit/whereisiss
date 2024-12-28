@@ -56,19 +56,25 @@ button:hover {
     display: none;
     align-self: center;
     border: 2px solid rgb(255, 255, 255, 0.5);
-    height: 140px;
+    height: 160px;
     width: 400px;
     margin-top: 2rem;
-    background-color: hsla(65, 20%, 50%, 0.5);
+    /* background-color: hsla(65, 20%, 50%, 0.5); */
+    background-color: hsla(60, 7%, 45%, 0.5);
     border-radius: 10px;
+    font-size: large;
 }
 
 
-.coordinates {
+/* .coordinates {
     color: white;
     font-size: large;   
-}
+} */
 
 p {
     color: white;
+}
+
+#location {
+    margin-top: 2.5rem;
 }
